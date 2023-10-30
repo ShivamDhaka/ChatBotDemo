@@ -1,0 +1,28 @@
+/* @media only screen and (max-width: 30000px) { */
+#chatbot-iframe
+{    
+    position: fixed;
+    bottom: 5em;
+    right: 1.5em;
+    /* width: 25vw;  */
+    height: 80vh;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 768px) {
+    #chatbot-iframe {
+      width: 90vw; 
+      height: 80vh; 
+      bottom: 2em; 
+      right: 1em; 
+    }
+  }
+.visible {
+    visibility: visible;
+  }
+  
+  .hidden {
+    visibility: hidden;
+  }

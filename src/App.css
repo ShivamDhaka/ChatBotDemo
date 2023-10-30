@@ -1,0 +1,15 @@
+.ChatBot {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+  height: auto;
+}
+
+.ChatBot:hover {
+  cursor: pointer;
+  transform: translate(-10%, -10%);
+}
+
+
+

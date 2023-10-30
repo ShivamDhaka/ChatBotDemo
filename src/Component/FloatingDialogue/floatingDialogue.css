@@ -1,0 +1,20 @@
+.floating-dialogue {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    animation: slideInUp 0.5s ease-in-out; /* CSS animation for appearance */
+  }
+  
+  @keyframes slideInUp {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
